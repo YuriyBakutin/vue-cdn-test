@@ -143,9 +143,9 @@ const commonPlugins = [
 const devPlugins = [
     dev({
         open: true,
-        dirs: ['build'],
-        openPage: 'build/index.html',
-        contentBase: 'build',
+        dirs: ['./build'],
+        openPage: './build/index.html',
+        contentBase: './build',
         host: 'localhost',
         port: 10001,
     }),
